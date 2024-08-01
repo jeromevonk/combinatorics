@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinatorial Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculadora de análise combinatória</h1>
+        <div class="form-group">
+            <label for="n">Digite n (total de elementos):</label>
+            <input type="number" id="n" name="n">
+        </div>
+        <div class="form-group">
+            <label for="r">Digite r (elementos selecionados):</label>
+            <input type="number" id="r" name="r">
+        </div>
+        <button onclick="calculate()">Calcular</button>
+        <div id="results">
+            <p id="array-result"></p>
+            <p id="combination-result"></p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
